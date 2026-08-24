@@ -3,10 +3,10 @@
 
 ## Team Members
 
+* Patil Dnyaneshwari Pravin
 * Gayatri Dayanand Bhagwat
 * Gadekar Varsha Vilas
 * Gawali Shravani Ganesh
-* Patil Dnyaneshwari Pravin
 
 ## Problem Statement
 

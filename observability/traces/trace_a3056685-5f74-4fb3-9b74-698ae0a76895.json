@@ -1,0 +1,130 @@
+{
+    "trace_id": "a3056685-5f74-4fb3-9b74-698ae0a76895",
+    "task": "NIVIDIA\n\n\nIMPORTANT: The following is previous conversation context. Use it to understand follow-up questions and avoid asking the user to repeat information.\n\nUser: Compare OpenAI and Google in recent AI developments. Identify competitive trends, risks, opportunities and recommendations.\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\n",
+    "status": "success",
+    "summary": {
+        "total_latency_seconds": 2.0488,
+        "tool_calls": 0,
+        "estimated_tokens": 42,
+        "error_count": 0
+    },
+    "errors": [],
+    "events": [
+        {
+            "timestamp": "2026-08-23T11:40:50.240719",
+            "elapsed_seconds": 0.0,
+            "event_type": "trace_started",
+            "name": "AgentX",
+            "data": {
+                "task": "NIVIDIA\n\n\nIMPORTANT: The following is previous conversation context. Use it to understand follow-up questions and avoid asking the user to repeat information.\n\nUser: Compare OpenAI and Google in recent AI developments. Identify competitive trends, risks, opportunities and recommendations.\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\n"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:50.240733",
+            "elapsed_seconds": 0.0,
+            "event_type": "agent_start",
+            "name": "AgentX",
+            "data": {
+                "prompt": "NIVIDIA\n\n\nIMPORTANT: The following is previous conversation context. Use it to understand follow-up questions and avoid asking the user to repeat information.\n\nUser: Compare OpenAI and Google in recent AI developments. Identify competitive trends, risks, opportunities and recommendations.\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\n"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:50.240739",
+            "elapsed_seconds": 0.0,
+            "event_type": "decision",
+            "name": "execution_mode",
+            "data": {
+                "decision": "normal",
+                "reason": "Execution mode selected from request"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:50.242683",
+            "elapsed_seconds": 0.002,
+            "event_type": "decision",
+            "name": "graph_execution",
+            "data": {
+                "decision": "start",
+                "reason": "Initial state prepared successfully"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:52.289490",
+            "elapsed_seconds": 2.0488,
+            "event_type": "metric",
+            "name": "graph_execution_latency_seconds",
+            "data": {
+                "value": 2.0468
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:52.289497",
+            "elapsed_seconds": 2.0488,
+            "event_type": "metric",
+            "name": "final_tool_calls",
+            "data": {
+                "value": 1
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:52.289500",
+            "elapsed_seconds": 2.0488,
+            "event_type": "metric",
+            "name": "final_confidence",
+            "data": {
+                "value": 0.3
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:52.289503",
+            "elapsed_seconds": 2.0488,
+            "event_type": "metric",
+            "name": "failure_count",
+            "data": {
+                "value": 0
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:52.289506",
+            "elapsed_seconds": 2.0488,
+            "event_type": "metric",
+            "name": "conflict_count",
+            "data": {
+                "value": 0
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:52.289508",
+            "elapsed_seconds": 2.0488,
+            "event_type": "decision",
+            "name": "graph_execution",
+            "data": {
+                "decision": "completed",
+                "reason": "LangGraph execution completed successfully"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:52.289513",
+            "elapsed_seconds": 2.0488,
+            "event_type": "agent_end",
+            "name": "AgentX",
+            "data": {
+                "output_preview": "LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.",
+                "estimated_tokens": 42
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:40:52.289520",
+            "elapsed_seconds": 2.0488,
+            "event_type": "trace_finished",
+            "name": "AgentX",
+            "data": {
+                "status": "success",
+                "total_latency_seconds": 2.0488,
+                "tool_calls": 0,
+                "estimated_tokens": 42,
+                "error_count": 0
+            }
+        }
+    ]
+}

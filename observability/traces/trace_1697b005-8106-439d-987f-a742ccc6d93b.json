@@ -1,0 +1,130 @@
+{
+    "trace_id": "1697b005-8106-439d-987f-a742ccc6d93b",
+    "task": "Compare OpenAI and Google in recent AI developments. Identify competitive trends, risks, opportunities and recommendations.",
+    "status": "success",
+    "summary": {
+        "total_latency_seconds": 3.4548,
+        "tool_calls": 0,
+        "estimated_tokens": 42,
+        "error_count": 0
+    },
+    "errors": [],
+    "events": [
+        {
+            "timestamp": "2026-08-23T08:30:10.137320",
+            "elapsed_seconds": 0.0,
+            "event_type": "trace_started",
+            "name": "AgentX",
+            "data": {
+                "task": "Compare OpenAI and Google in recent AI developments. Identify competitive trends, risks, opportunities and recommendations."
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:10.137333",
+            "elapsed_seconds": 0.0,
+            "event_type": "agent_start",
+            "name": "AgentX",
+            "data": {
+                "prompt": "Compare OpenAI and Google in recent AI developments. Identify competitive trends, risks, opportunities and recommendations."
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:10.137337",
+            "elapsed_seconds": 0.0,
+            "event_type": "decision",
+            "name": "execution_mode",
+            "data": {
+                "decision": "normal",
+                "reason": "Execution mode selected from request"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:10.137831",
+            "elapsed_seconds": 0.0005,
+            "event_type": "decision",
+            "name": "graph_execution",
+            "data": {
+                "decision": "start",
+                "reason": "Initial state prepared successfully"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:13.592041",
+            "elapsed_seconds": 3.4547,
+            "event_type": "metric",
+            "name": "graph_execution_latency_seconds",
+            "data": {
+                "value": 3.4542
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:13.592066",
+            "elapsed_seconds": 3.4548,
+            "event_type": "metric",
+            "name": "final_tool_calls",
+            "data": {
+                "value": 1
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:13.592077",
+            "elapsed_seconds": 3.4548,
+            "event_type": "metric",
+            "name": "final_confidence",
+            "data": {
+                "value": 0.3
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:13.592087",
+            "elapsed_seconds": 3.4548,
+            "event_type": "metric",
+            "name": "failure_count",
+            "data": {
+                "value": 0
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:13.592096",
+            "elapsed_seconds": 3.4548,
+            "event_type": "metric",
+            "name": "conflict_count",
+            "data": {
+                "value": 0
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:13.592106",
+            "elapsed_seconds": 3.4548,
+            "event_type": "decision",
+            "name": "graph_execution",
+            "data": {
+                "decision": "completed",
+                "reason": "LangGraph execution completed successfully"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:13.592122",
+            "elapsed_seconds": 3.4548,
+            "event_type": "agent_end",
+            "name": "AgentX",
+            "data": {
+                "output_preview": "LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.",
+                "estimated_tokens": 42
+            }
+        },
+        {
+            "timestamp": "2026-08-23T08:30:13.592136",
+            "elapsed_seconds": 3.4548,
+            "event_type": "trace_finished",
+            "name": "AgentX",
+            "data": {
+                "status": "success",
+                "total_latency_seconds": 3.4548,
+                "tool_calls": 0,
+                "estimated_tokens": 42,
+                "error_count": 0
+            }
+        }
+    ]
+}

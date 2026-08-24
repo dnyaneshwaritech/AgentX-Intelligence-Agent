@@ -1,0 +1,130 @@
+{
+    "trace_id": "a2d8c921-eb04-4225-8b15-14f376469df1",
+    "task": "Find recent AI industry developments and identify important opportunities and risks.",
+    "status": "success",
+    "summary": {
+        "total_latency_seconds": 5.774,
+        "tool_calls": 0,
+        "estimated_tokens": 42,
+        "error_count": 0
+    },
+    "errors": [],
+    "events": [
+        {
+            "timestamp": "2026-08-23T05:56:20.498085",
+            "elapsed_seconds": 0.0,
+            "event_type": "trace_started",
+            "name": "AgentX",
+            "data": {
+                "task": "Find recent AI industry developments and identify important opportunities and risks."
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:20.498122",
+            "elapsed_seconds": 0.0,
+            "event_type": "agent_start",
+            "name": "AgentX",
+            "data": {
+                "prompt": "Find recent AI industry developments and identify important opportunities and risks."
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:20.498130",
+            "elapsed_seconds": 0.0001,
+            "event_type": "decision",
+            "name": "execution_mode",
+            "data": {
+                "decision": "adversarial",
+                "reason": "Execution mode selected from request"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:20.498547",
+            "elapsed_seconds": 0.0005,
+            "event_type": "decision",
+            "name": "graph_execution",
+            "data": {
+                "decision": "start",
+                "reason": "Initial state prepared successfully"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:26.272090",
+            "elapsed_seconds": 5.774,
+            "event_type": "metric",
+            "name": "graph_execution_latency_seconds",
+            "data": {
+                "value": 5.7735
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:26.272101",
+            "elapsed_seconds": 5.774,
+            "event_type": "metric",
+            "name": "final_tool_calls",
+            "data": {
+                "value": 2
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:26.272106",
+            "elapsed_seconds": 5.774,
+            "event_type": "metric",
+            "name": "final_confidence",
+            "data": {
+                "value": 0.3
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:26.272110",
+            "elapsed_seconds": 5.774,
+            "event_type": "metric",
+            "name": "failure_count",
+            "data": {
+                "value": 1
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:26.272114",
+            "elapsed_seconds": 5.774,
+            "event_type": "metric",
+            "name": "conflict_count",
+            "data": {
+                "value": 1
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:26.272118",
+            "elapsed_seconds": 5.774,
+            "event_type": "decision",
+            "name": "graph_execution",
+            "data": {
+                "decision": "completed",
+                "reason": "LangGraph execution completed successfully"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:26.272126",
+            "elapsed_seconds": 5.774,
+            "event_type": "agent_end",
+            "name": "AgentX",
+            "data": {
+                "output_preview": "LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.",
+                "estimated_tokens": 42
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:56:26.272134",
+            "elapsed_seconds": 5.7741,
+            "event_type": "trace_finished",
+            "name": "AgentX",
+            "data": {
+                "status": "success",
+                "total_latency_seconds": 5.774,
+                "tool_calls": 0,
+                "estimated_tokens": 42,
+                "error_count": 0
+            }
+        }
+    ]
+}

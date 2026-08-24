@@ -1,0 +1,130 @@
+{
+    "trace_id": "6444bdee-2ec2-4b89-ad23-f48b897af69a",
+    "task": "Find recent AI industry developments and identify important opportunities and risks.",
+    "status": "success",
+    "summary": {
+        "total_latency_seconds": 42.8834,
+        "tool_calls": 0,
+        "estimated_tokens": 463,
+        "error_count": 0
+    },
+    "errors": [],
+    "events": [
+        {
+            "timestamp": "2026-08-23T05:36:31.062290",
+            "elapsed_seconds": 0.0,
+            "event_type": "trace_started",
+            "name": "AgentX",
+            "data": {
+                "task": "Find recent AI industry developments and identify important opportunities and risks."
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:36:31.062341",
+            "elapsed_seconds": 0.0001,
+            "event_type": "agent_start",
+            "name": "AgentX",
+            "data": {
+                "prompt": "Find recent AI industry developments and identify important opportunities and risks."
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:36:31.062350",
+            "elapsed_seconds": 0.0001,
+            "event_type": "decision",
+            "name": "execution_mode",
+            "data": {
+                "decision": "adversarial",
+                "reason": "Execution mode selected from request"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:36:31.062672",
+            "elapsed_seconds": 0.0004,
+            "event_type": "decision",
+            "name": "graph_execution",
+            "data": {
+                "decision": "start",
+                "reason": "Initial state prepared successfully"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:37:13.945618",
+            "elapsed_seconds": 42.8833,
+            "event_type": "metric",
+            "name": "graph_execution_latency_seconds",
+            "data": {
+                "value": 42.8829
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:37:13.945625",
+            "elapsed_seconds": 42.8833,
+            "event_type": "metric",
+            "name": "final_tool_calls",
+            "data": {
+                "value": 2
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:37:13.945629",
+            "elapsed_seconds": 42.8833,
+            "event_type": "metric",
+            "name": "final_confidence",
+            "data": {
+                "value": 0.0
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:37:13.945632",
+            "elapsed_seconds": 42.8833,
+            "event_type": "metric",
+            "name": "failure_count",
+            "data": {
+                "value": 1
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:37:13.945634",
+            "elapsed_seconds": 42.8833,
+            "event_type": "metric",
+            "name": "conflict_count",
+            "data": {
+                "value": 2
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:37:13.945637",
+            "elapsed_seconds": 42.8834,
+            "event_type": "decision",
+            "name": "graph_execution",
+            "data": {
+                "decision": "completed",
+                "reason": "LangGraph execution completed successfully"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:37:13.945644",
+            "elapsed_seconds": 42.8834,
+            "event_type": "agent_end",
+            "name": "AgentX",
+            "data": {
+                "output_preview": "# Executive Summary\nThis report evaluates recent developments in the AI industry, highlighting key findings, emerging trends, risks, and opportunities. Conflicting evidence regarding competitive expansion necessitates further verification.\n\n# Key Findings\n- No recent developments were successfully retrieved due to tool failures.\n- Conflicting claims exist regarding the pace of competitive expansion in the AI sector.\n\n# Emerging Trends\n- The AI industry is experiencing significant competitive dyn",
+                "estimated_tokens": 463
+            }
+        },
+        {
+            "timestamp": "2026-08-23T05:37:13.945651",
+            "elapsed_seconds": 42.8834,
+            "event_type": "trace_finished",
+            "name": "AgentX",
+            "data": {
+                "status": "success",
+                "total_latency_seconds": 42.8834,
+                "tool_calls": 0,
+                "estimated_tokens": 463,
+                "error_count": 0
+            }
+        }
+    ]
+}

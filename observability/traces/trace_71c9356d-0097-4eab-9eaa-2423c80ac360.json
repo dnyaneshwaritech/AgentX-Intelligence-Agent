@@ -1,0 +1,130 @@
+{
+    "trace_id": "71c9356d-0097-4eab-9eaa-2423c80ac360",
+    "task": "10 * 54\n\n\nIMPORTANT: The following is previous conversation context. Use it to understand follow-up questions and avoid asking the user to repeat information.\n\nUser: Compare OpenAI and Google in recent AI developments. Identify competitive trends, risks, opportunities and recommendations.\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\nUser: NIVIDIA\n\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\nUser: 10 * 54\n\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\n",
+    "status": "success",
+    "summary": {
+        "total_latency_seconds": 0.501,
+        "tool_calls": 0,
+        "estimated_tokens": 42,
+        "error_count": 0
+    },
+    "errors": [],
+    "events": [
+        {
+            "timestamp": "2026-08-23T11:44:21.094427",
+            "elapsed_seconds": 0.0,
+            "event_type": "trace_started",
+            "name": "AgentX",
+            "data": {
+                "task": "10 * 54\n\n\nIMPORTANT: The following is previous conversation context. Use it to understand follow-up questions and avoid asking the user to repeat information.\n\nUser: Compare OpenAI and Google in recent AI developments. Identify competitive trends, risks, opportunities and recommendations.\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\nUser: NIVIDIA\n\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\nUser: 10 * 54\n\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\n"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.094438",
+            "elapsed_seconds": 0.0,
+            "event_type": "agent_start",
+            "name": "AgentX",
+            "data": {
+                "prompt": "10 * 54\n\n\nIMPORTANT: The following is previous conversation context. Use it to understand follow-up questions and avoid asking the user to repeat information.\n\nUser: Compare OpenAI and Google in recent AI developments. Identify competitive trends, risks, opportunities and recommendations.\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\nUser: NIVIDIA\n\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\nUser: 10 * 54\n\nAgent: LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.\n\n"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.094442",
+            "elapsed_seconds": 0.0,
+            "event_type": "decision",
+            "name": "execution_mode",
+            "data": {
+                "decision": "normal",
+                "reason": "Execution mode selected from request"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.094817",
+            "elapsed_seconds": 0.0004,
+            "event_type": "decision",
+            "name": "graph_execution",
+            "data": {
+                "decision": "start",
+                "reason": "Initial state prepared successfully"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.595440",
+            "elapsed_seconds": 0.501,
+            "event_type": "metric",
+            "name": "graph_execution_latency_seconds",
+            "data": {
+                "value": 0.5006
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.595449",
+            "elapsed_seconds": 0.501,
+            "event_type": "metric",
+            "name": "final_tool_calls",
+            "data": {
+                "value": 1
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.595453",
+            "elapsed_seconds": 0.501,
+            "event_type": "metric",
+            "name": "final_confidence",
+            "data": {
+                "value": 0.3
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.595457",
+            "elapsed_seconds": 0.501,
+            "event_type": "metric",
+            "name": "failure_count",
+            "data": {
+                "value": 0
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.595460",
+            "elapsed_seconds": 0.501,
+            "event_type": "metric",
+            "name": "conflict_count",
+            "data": {
+                "value": 0
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.595464",
+            "elapsed_seconds": 0.501,
+            "event_type": "decision",
+            "name": "graph_execution",
+            "data": {
+                "decision": "completed",
+                "reason": "LangGraph execution completed successfully"
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.595469",
+            "elapsed_seconds": 0.501,
+            "event_type": "agent_end",
+            "name": "AgentX",
+            "data": {
+                "output_preview": "LLM analysis is temporarily unavailable. Use the available tool evidence only. Do not make unsupported conclusions. Report uncertainty and continue with fallback planning.",
+                "estimated_tokens": 42
+            }
+        },
+        {
+            "timestamp": "2026-08-23T11:44:21.595475",
+            "elapsed_seconds": 0.5011,
+            "event_type": "trace_finished",
+            "name": "AgentX",
+            "data": {
+                "status": "success",
+                "total_latency_seconds": 0.501,
+                "tool_calls": 0,
+                "estimated_tokens": 42,
+                "error_count": 0
+            }
+        }
+    ]
+}

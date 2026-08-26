@@ -313,8 +313,10 @@ Expected behavior:
 
 A real research tool failure is simulated using:
 
-```python
-FORCE_TOOL_FAILURE = True
+"""python
+FORCE_TOOL_FAILURE = True """
+
+
 # Task 7: Advanced Tracing & Observability Report
 
 ## 1. Objective
